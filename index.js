@@ -1,3 +1,5 @@
+let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
+
 const Neighborhood = (() => {
   let neighborhoodIds = 1;
   return class {
